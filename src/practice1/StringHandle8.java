@@ -13,7 +13,7 @@ public class StringHandle8 {
                 sum = sum + inputString.charAt(i);
             }
         }
-        System.out.print(sum);
+        System.out.print("Sum of all Uppercase Letters " + sum);
         scan.close();
     }
 }
