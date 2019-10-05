@@ -18,7 +18,7 @@ public class StringHandle9 {
             }
         }
         absoluteWeight = upperWeight - lowerWeight;
-        System.out.print("Absolute Weight is " + absoluteWeight);
+        System.out.print("Absolute Weight is " + Math.abs(absoluteWeight));
         scan.close();
     }
 }
