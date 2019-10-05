@@ -8,6 +8,6 @@ public class StringHandle6 {
         String inputString = scan.nextLine().trim();
         //inputString = inputString.toUpperCase();  Another way to print the Output
         //System.out.println(inputString);
-        System.out.println(inputString.toUpperCase());
+        System.out.println("Input String in Upper case is " + inputString.toUpperCase());
     }
 }
