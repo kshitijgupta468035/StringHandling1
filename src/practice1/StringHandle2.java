@@ -7,7 +7,7 @@ public class StringHandle2 {
         Scanner scan = new Scanner(System.in);
         String string = scan.nextLine().trim();
         int indexValue = Integer.parseInt(scan.nextLine());
-        System.out.println(string.substring(indexValue));
+        System.out.println("Substring of given Input is " + string.substring(indexValue));
         scan.close();
     }
 }
