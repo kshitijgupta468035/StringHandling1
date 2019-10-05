@@ -9,7 +9,7 @@ public class StringHandle8 {
         int sum = 0;
         for (int i = 0; i < inputString.length(); i++) {
             char c = inputString.charAt(i);
-            if (c > 64 && c < 127) {
+            if (c > 64 && c < 92) {
                 sum = sum + inputString.charAt(i);
             }
         }
