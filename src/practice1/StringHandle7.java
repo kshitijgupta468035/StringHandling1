@@ -10,7 +10,7 @@ public class StringHandle7 {
         for (int i = 0; i < inputString.length(); i++) {
             sum = sum + inputString.charAt(i);
         }
-        System.out.println(sum);
+        System.out.println("Sum of all letters of the inputString " + sum);
         scan.close();
     }
 }
